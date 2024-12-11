@@ -1,0 +1,91 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Блок header */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 1.5em;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header__menu-item {
+    margin-left: 15px;
+}
+
+.header__menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Блок content */
+.content {
+    padding: 20px;
+}
+
+.content__section {
+    margin-bottom: 20px;
+}
+
+.content__section--intro {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.content__title {
+    margin: 0 0 10px 0;
+    font-size: 2em;
+}
+
+.content__text {
+    font-size: 1.2em;
+}
+
+/* Блок article */
+.article {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.article__title {
+    font-size: 1.5em;
+    margin: 0 0 10px 0;
+}
+
+.article__text {
+    font-size: 1em;
+}
+
+/* Блок footer */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
